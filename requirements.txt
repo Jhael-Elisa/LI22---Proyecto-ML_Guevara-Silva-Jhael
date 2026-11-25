@@ -1,5 +1,17 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+
+# Entorno de Jupyter para abrir y ejecutar los notebooks
+jupyterlab>=4.2
+notebook>=7.2
+ipykernel>=6.29
+nbformat>=5.10
+nbconvert>=7.16
+ipywidgets>=8.1
+
+# Opcional: generación de los PDF de docs/ (python docs/build_pdfs.py)
+markdown>=3.6
+xhtml2pdf>=0.2.16
